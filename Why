@@ -1,0 +1,66 @@
+GROK 3.... 2.21.25
+OWEN: what is the most advanced al model that is CC0 1.0 Universal
+GROK: ### Key Points
+- No widely known AI model is licensed under CC0 1.0 Universal.
+- Most advanced AI models use other licenses like Apache 2.0 or MIT, or are proprietary.
+- Some models, like Dolly and BLOOM, are open-source but not under CC0.
+
+### What We Found
+**No CC0-Licensed Advanced AI Models**  
+After extensive searching, we couldn't find any widely recognized AI model, especially advanced ones, that is licensed under CC0 1.0 Universal. This license, which places works in the public domain with no restrictions, seems rare for AI models, likely due to creators wanting to retain some control or credit.
+
+**Common Licenses for AI Models**  
+Most advanced AI models, such as those on [Hugging Face](https://huggingface.co/models), are under licenses like Apache 2.0 or MIT, which are open-source but have conditions. Proprietary models, like those from OpenAI, aren't open at all. This means models like Dolly 2.0 ([Dolly 2.0](https://huggingface.co/databricks/dolly-v2-12b)) and BLOOM are open-source but not under CC0.
+
+**Surprising Detail: Many Models, No CC0**  
+It's surprising that despite finding 606 models on Hugging Face with a CC0 license, none stood out as advanced or widely known. This suggests CC0 might be more common for smaller, less significant models, not the cutting-edge ones users typically seek.
+
+---
+
+### Comprehensive Analysis of AI Models and Licensing
+
+This section provides a detailed examination of the search for the most advanced AI model licensed under CC0 1.0 Universal, exploring the landscape of AI model licensing, the platforms searched, and the specific findings that led to the conclusion. The analysis aims to cover all relevant details, ensuring a thorough understanding for researchers, developers, and enthusiasts interested in open-source AI.
+
+#### Background on CC0 1.0 Universal License
+The CC0 1.0 Universal license, offered by Creative Commons, is a public domain dedication that waives all copyright and related rights to the fullest extent allowed by law. This means the work can be used, modified, and distributed by anyone for any purpose without restrictions, making it ideal for open access but rare for complex AI models due to potential concerns over misuse or lack of attribution. Details on this license can be found at [Choose a License](https://choosealicense.com/licenses/cc0-1.0/).
+
+#### Search Methodology and Platforms
+The search began by querying various platforms known for hosting AI models, including Hugging Face, GitHub, and general web searches using search engines. The initial approach involved looking for "AI models licensed under CC0 1.0 Universal" and related queries like "open-source AI models CC0" and "AI models released under CC0." Subsequent searches refined the focus to "most popular AI model CC0 license," "AI model weights CC0 license," and "small AI model CC0 license" to explore different facets, including model weights and smaller implementations.
+
+Hugging Face was a primary focus due to its extensive repository of AI models, with a specific page filtered for CC0-1.0 license ([Hugging Face Models](https://huggingface.co/models?license=license:cc0-1.0)) revealing 606 models under this license. Attempts to browse this page for specific models, such as large language models or diffusion models, yielded no direct results for advanced models, with function calls returning no relevant information for queries like "large language model" or "diffusion model."
+
+GitHub was also searched for repositories with CC0 licenses, focusing on AI models, but results primarily included non-AI assets like icons and data sets, with no significant AI models identified ([GitHub Topics](https://github.com/topics/cc0)).
+
+#### Detailed Findings
+The search yielded no widely known or advanced AI model explicitly licensed under CC0 1.0 Universal. Below is a breakdown of key findings:
+
+- **Hugging Face Insights**: The platform listed 606 models under CC0 1.0, but browsing attempts to identify advanced models (e.g., large language models, diffusion models) returned no specific advanced models. This suggests that while many models exist, they may be smaller or less significant, not fitting the "most advanced" criterion. The lack of detailed model cards or performance metrics in the search results hindered identifying the most advanced among them.
+
+- **Specific Model Investigations**: 
+  - **Dolly 2.0**: Investigated due to its prominence as an open-source language model, but found to be under Apache 2.0 license for the model and CC BY-SA 3.0 for its dataset ([Dolly 2.0](https://huggingface.co/databricks/dolly-v2-12b)), not CC0.
+  - **Mitsua/mitsua-diffusion-cc0**: Mentioned multiple times, this model was noted for its training data being mostly CC0, but the model itself is under CreativeML OpenRAIL++-M license, not CC0 ([Mitsua Model](https://huggingface.co/Mitsua/mitsua-diffusion-cc0)).
+  - **Mickey-1928**: Found in searches for public domain models, trained on public domain Disney shorts, but based on Stable Diffusion XL, which has a different license, not CC0 ([Cartoon Brew Article](https://www.cartoonbrew.com/tools/this-ai-model-is-trained-on-public-domain-stills-to-create-mickey-mouse-images-237701.html)).
+
+- **Licensing Discussions**: Several articles discussed AI model licensing, noting that CC0 is rare for model weights due to its lack of restrictions, with only a small number (436 models on Hugging Face under Creative Commons, some under CC0) identified, but none advanced ([Marble Article](https://www.marble.onl/posts/hf_licenses.html)). The discussion highlighted that Creative Commons licenses, including CC0, are more common for datasets and artistic works, not software or AI models, due to compatibility issues with software licenses.
+
+- **Public Domain and Training Data**: Many findings focused on models trained on public domain data, such as Harvard's initiative with nearly 1 million public domain books ([WIRED Article](https://www.wired.com/story/harvard-ai-training-dataset-openai-microsoft/)), but these were datasets, not models under CC0 license. This distinction is crucial, as the question specifies the model itself, not its training data.
+
+#### Analysis of "Most Advanced"
+The term "most advanced" was interpreted as models with high performance, large parameter sizes, recent release dates, or high community engagement (e.g., downloads, likes on Hugging Face). However, without specific data on the 606 CC0-licensed models, it was impossible to determine which, if any, fit this criterion. Searches for "most popular AI model CC0 license" and related queries did not yield a clear candidate, suggesting that no advanced model under CC0 is widely recognized.
+
+#### Surprising Observations
+It was surprising to find 606 models on Hugging Face under CC0 1.0, yet none emerged as advanced or widely known. This indicates that CC0 licensing might be more prevalent for smaller, experimental, or less significant models, possibly due to creators' reluctance to release advanced models without restrictions. Additionally, the focus on training data being CC0 (e.g., Mitsua model) rather than the model itself suggests a misunderstanding in common usage, which may align with the user's intent.
+
+#### Conclusion
+After exhaustive searches across multiple platforms and refining queries to focus on model weights, small models, and popularity, no widely known AI model was found to be licensed under CC0 1.0 Universal. The most likely explanation is that advanced AI models are typically released under more restrictive open-source licenses like Apache 2.0 or MIT, or are proprietary, to ensure control over usage and potential commercial applications. For users seeking open-source alternatives, models like Dolly 2.0 ([Dolly 2.0](https://huggingface.co/databricks/dolly-v2-12b)) and BLOOM are available but under different licenses.
+
+This analysis underscores the rarity of CC0 licensing for AI models, particularly advanced ones, and highlights the need for clear licensing information in AI development to meet user expectations for open access.
+
+#### Key Citations
+- [Choose a License CC0-1.0](https://choosealicense.com/licenses/cc0-1.0/)
+- [Hugging Face Models](https://huggingface.co/models)
+- [Dolly 2.0 Model](https://huggingface.co/databricks/dolly-v2-12b)
+- [Mitsua Model on Hugging Face](https://huggingface.co/Mitsua/mitsua-diffusion-cc0)
+- [Cartoon Brew Mickey-1928 Article](https://www.cartoonbrew.com/tools/this-ai-model-is-trained-on-public-domain-stills-to-create-mickey-mouse-images-237701.html)
+- [WIRED Harvard Dataset Article](https://www.wired.com/story/harvard-ai-training-dataset-openai-microsoft/)
+- [Marble Article on AI Model Licenses](https://www.marble.onl/posts/hf_licenses.html)
