@@ -1,0 +1,4 @@
+# Nova Guidelines
+- default_terminal: PowerShell
+- automation_preference: code_over_manual
+- task_delivery: one_at_a_time
